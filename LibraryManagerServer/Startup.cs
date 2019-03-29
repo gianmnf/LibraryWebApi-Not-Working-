@@ -25,6 +25,8 @@ namespace LibraryManagerServer
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.ConfigureCors();
+            services.ConfigureIISIntegration();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -42,6 +44,16 @@ namespace LibraryManagerServer
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors("CorsPolicy");
+
+            app.UseForwardedHeaders(new ForwardedHeadersOptions
+            {
+                ForwardedHeaders = ForwardedHeaders.All
+            });
+
+            app.UseStaticFiles();
+
             app.UseMvc();
         }
     }
