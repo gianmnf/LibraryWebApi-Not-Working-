@@ -3,3 +3,10 @@ D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\bin\Debug\netcoreapp2.2\Logger
 D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.csproj.CoreCompileInputs.cache
 D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.AssemblyInfoInputs.cache
 D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.AssemblyInfo.cs
+D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.pdb
+D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\bin\Debug\netcoreapp2.2\Books.dll
+D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\bin\Debug\netcoreapp2.2\Books.pdb
+D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.csprojAssemblyReference.cache
+D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.csproj.CopyComplete
+D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.dll
+D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.pdb

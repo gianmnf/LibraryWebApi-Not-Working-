@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Books;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryManagerServer.Controllers
@@ -10,10 +11,21 @@ namespace LibraryManagerServer.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        public ILoggerManager _logger { get; set; }
+
+        public ValuesController(ILoggerManager logger)
+        {
+            logger = _logger;
+        }
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+            //Desativado
+            /*_logger.LogInfo("Aqui está a mensagem informativa gerada pelo Controller.");
+            _logger.LogDebug("Aqui está a mensagem de debug gerada pelo Controller.");
+            _logger.LogWarn("Aqui está a mensagem de aviso gerada pelo Controller.");
+            _logger.LogError("Aqui está a mensagem de erro gerada pelo Controller."); */
             return new string[] { "value1", "value2" };
         }
 
