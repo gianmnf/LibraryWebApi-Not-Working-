@@ -342,6 +342,16 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
+      },
+      "Books/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Books.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Books.dll": {}
+        }
       }
     }
   },
@@ -1037,10 +1047,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Books/1.0.0": {
+      "type": "project",
+      "path": "../Books/Books.csproj",
+      "msbuildProject": "../Books/Books.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Books >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "NLog.Extensions.Logging >= 1.4.0"
     ]
@@ -1074,7 +1090,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\veloxSZ\\prefeitura\\LibraryWebApi\\Books\\Books.csproj": {
+              "projectPath": "D:\\veloxSZ\\prefeitura\\LibraryWebApi\\Books\\Books.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
