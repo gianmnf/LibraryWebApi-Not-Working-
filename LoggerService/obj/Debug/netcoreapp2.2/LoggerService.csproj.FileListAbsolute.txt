@@ -1,0 +1,5 @@
+D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.deps.json
+D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.dll
+D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.csproj.CoreCompileInputs.cache
+D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.AssemblyInfoInputs.cache
+D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.AssemblyInfo.cs
