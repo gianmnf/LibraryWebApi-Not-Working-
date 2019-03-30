@@ -14267,7 +14267,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TEMP.JURIS28.005\\.nuget\\packages\\": {},
+    "C:\\Users\\gianmnf\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -14276,14 +14276,14 @@
       "projectUniqueName": "D:\\veloxSZ\\prefeitura\\LibraryWebApi\\Repository\\Repository.csproj",
       "projectName": "Repository",
       "projectPath": "D:\\veloxSZ\\prefeitura\\LibraryWebApi\\Repository\\Repository.csproj",
-      "packagesPath": "C:\\Users\\TEMP.JURIS28.005\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\gianmnf\\.nuget\\packages\\",
       "outputPath": "D:\\veloxSZ\\prefeitura\\LibraryWebApi\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\TEMP.JURIS28.005\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gianmnf\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

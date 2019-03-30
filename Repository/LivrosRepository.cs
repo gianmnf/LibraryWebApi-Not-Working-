@@ -20,5 +20,11 @@ namespace Repository
             return FindAll()
                 .OrderBy(li => li.Nome);
         }
+
+        public Livros GetLivrosById(int livrosId)
+        {
+            return FindByCondition(livros => livros.Id.Equals(livrosId))
+                .FirstOrDefault();
+        }
     }
 }

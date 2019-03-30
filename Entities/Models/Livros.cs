@@ -9,7 +9,9 @@ namespace Entities.Models
     [Table("Livros")]
     public class Livros
     {
-        public int LivroId { get; set; }
+        [Key]
+        [Column("livroId")]
+        public int Id { get; set; }
 
         [Required(ErrorMessage = "Nome é obrigatório")]
         [StringLength(150, ErrorMessage = "O campo nome não pode passar de 150 caracteres")]

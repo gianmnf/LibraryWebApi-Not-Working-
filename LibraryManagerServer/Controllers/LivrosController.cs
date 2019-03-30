@@ -36,5 +36,29 @@ namespace LibraryManagerServer.Controllers
                 return StatusCode(500, "Erro Interno do Servidor");
             }
         }
+
+        [HttpGet("{id}")]
+        public IActionResult GetLivrosById(int id)
+        {
+            try
+            {
+                var livros = _repository.Livros.GetLivrosById(id);
+                if (livros == null)
+                {
+                    _logger.LogError($"Livro com o id: {id} não foi encontrado.");
+                    return NotFound();
+                }
+                else
+                {
+                    _logger.LogInfo($"Livro com o id: {id} foi encontrado.");
+                    return Ok(livros);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Algo deu na ação GetLivrosById: {ex.Message}");
+                return StatusCode(500, "Erro Interno do Servidor");
+            }
+        }
     }
 }

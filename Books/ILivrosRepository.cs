@@ -8,5 +8,6 @@ namespace Books
     public interface ILivrosRepository : IRepositoryBase<Livros>
     {
         IEnumerable<Livros> GetAllLivros();
+        Livros GetLivrosById(int livroId);
     }
 }
