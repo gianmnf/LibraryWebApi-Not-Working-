@@ -130,6 +130,13 @@ namespace LibraryManagerServer.Controllers
                 }
 
                 var dbLivros = _repository.Livros.GetLivrosById(id);
+                if(dbLivros.IsEmptyObject())
+                {
+                    _logger.LogError($"Livro com o id: {id} não foi encontrado");
+                    return NotFound();
+                }
+
+                _repository.Livros.UpdateLivros(dbLivros, livros);
 
                 return NoContent();
             }
@@ -151,6 +158,9 @@ namespace LibraryManagerServer.Controllers
                     _logger.LogError($"Livro com o id {id} não foi encontrado");
                     return NotFound();
                 }
+
+                _repository.Livros.DeleteLivros(livros);
+
                 return NoContent();
             }
             catch (Exception ex)

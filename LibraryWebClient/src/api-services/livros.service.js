@@ -17,5 +17,8 @@ export default {
   },
   delete (id) {
     return Axios.delete(`${RESOURCE_NAME}/${id}`)
+  },
+  getLivros (id) {
+    return Axios.get(`${RESOURCE_NAME}/${id}/details`)
   }
 }

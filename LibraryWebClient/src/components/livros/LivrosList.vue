@@ -34,6 +34,20 @@
         </div>
       </b-col>
     </b-row>
+    <b-modal
+      ref="deleteConfirmModal"
+      title="Confirme sua Ação"
+      @ok="onDeleteConfirm"
+      @hide="onDeleteModalHide">
+      <p class="my-4">Deseja apagar este livro?</p>
+    </b-modal>
+
+    <b-modal
+      ref="alertModal"
+      :title="alertModalTitle"
+      :ok-only="true">
+      <p class="my-4">{{ alertModalContent }}</p>
+    </b-modal>
   </div>
 </template>
 <script>
@@ -46,7 +60,10 @@ export default {
   },
   data () {
     return {
-      livros: []
+      livros: [],
+      selectedLivrosId: null,
+      alertModalTitle: '',
+      alertModalContent: ''
     }
   },
   created () {
@@ -56,13 +73,34 @@ export default {
   },
   methods: {
     detailsLivros (livroId) {
-      console.log('details', livroId)
+      this.$router.push({ name: 'LivrosDetails', params: { id: livroId } })
     },
     updateLivros (livroId) {
       console.log('update', livroId)
     },
     deleteLivros (livroId) {
-      console.log('delete', livroId)
+      this.selectedLivrosId = livroId
+      this.$refs.deleteConfirmModal.show()
+    },
+    fetchLivros () {
+      LivrosService.getAll().then((response) => {
+        this.livros = response.data
+      })
+    },
+    onDeleteConfirm () {
+      LivrosService.delete(this.selectedLivrosId).then(() => {
+        this.alertModalTitle = 'Sucesso'
+        this.alertModalContent = 'Livro removido com sucesso.'
+        this.$refs.alertModal.show()
+        this.fetchLivros()
+      }).catch((error) => {
+        this.alertModalTitle = 'Erro'
+        this.alertModalContent = error.response.data
+        this.$refs.alertModal.show()
+      })
+    },
+    onDeleteModalHide () {
+      this.selectedLivrosId = null
     }
   }
 }

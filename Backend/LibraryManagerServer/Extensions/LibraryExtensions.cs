@@ -31,9 +31,10 @@ namespace LibraryManagerServer.Extensions
         {
             services.AddCors(options => {
                 options.AddPolicy("CorsPolicy",
-                    builder => builder.AllowAnyOrigin()
-                    .AllowAnyMethod()
+                    builder => builder.AllowAnyMethod()
                     .AllowAnyHeader()
+		            .WithOrigins("http://localhost:5000/",
+                                 "http://localhost:8080")
                     .AllowCredentials());
             });
         }

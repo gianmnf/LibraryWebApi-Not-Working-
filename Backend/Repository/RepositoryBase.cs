@@ -26,19 +26,19 @@ namespace Repository
             return this.RepositoryContext.Set<T>().Where(expression);
         }
 
-        public void Create(T entity)
+        public void Create(T livros)
         {
-            this.RepositoryContext.Set<T>().Add(entity);
+            this.RepositoryContext.Set<T>().Add(livros);
         }
 
-        public void Update(T entity)
+        public void Update(T livros)
         {
-            this.RepositoryContext.Set<T>().Update(entity);
+            this.RepositoryContext.Set<T>().Update(livros);
         }
 
-        public void Delete(T entity)
+        public void Delete(T livros)
         {
-            this.RepositoryContext.Set<T>().Remove(entity);
+            this.RepositoryContext.Set<T>().Remove(livros);
         }
 
         public void Save()
