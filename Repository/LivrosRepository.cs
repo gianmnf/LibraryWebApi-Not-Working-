@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Books;
 using Entities;
+using Entities.ExtendedModels;
 using Entities.Models;
 
 namespace Repository
@@ -24,7 +25,18 @@ namespace Repository
         public Livros GetLivrosById(int livrosId)
         {
             return FindByCondition(livros => livros.Id.Equals(livrosId))
+                .DefaultIfEmpty(new Livros())
                 .FirstOrDefault();
+        }
+
+        public LivrosExtended GetLivrosWithDetails(int livroId)
+        {
+            return new LivrosExtended(GetLivrosById(livroId))
+            {
+                Livros = RepositoryContext.Livros
+                        .Where(li => li.Id == livroId)
+            };
+
         }
     }
 }

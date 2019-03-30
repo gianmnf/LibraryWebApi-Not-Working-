@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Entities.Models;
+using Entities.ExtendedModels;
 
 namespace Books
 {
@@ -9,5 +10,6 @@ namespace Books
     {
         IEnumerable<Livros> GetAllLivros();
         Livros GetLivrosById(int livroId);
+        LivrosExtended GetLivrosWithDetails(int livroId);
     }
 }
