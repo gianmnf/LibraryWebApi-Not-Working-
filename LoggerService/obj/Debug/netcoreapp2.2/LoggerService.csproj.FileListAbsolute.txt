@@ -10,3 +10,5 @@ D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\obj\Debug\netcoreapp2.2\Logger
 D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.csproj.CopyComplete
 D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.dll
 D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.pdb
+D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\bin\Debug\netcoreapp2.2\Entities.dll
+D:\veloxSZ\prefeitura\LibraryWebApi\LoggerService\bin\Debug\netcoreapp2.2\Entities.pdb

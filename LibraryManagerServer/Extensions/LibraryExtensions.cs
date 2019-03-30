@@ -9,11 +9,16 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Entities;
+using Repository;
 
 namespace LibraryManagerServer.Extensions
 {
     public static class LibraryExtensions
     {
+        public static void ConfigureRepositoryWrapper(this IServiceCollection services)
+        {
+            services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+        }
         //Configurando MySQL
         public static void ConfigureMySqlContext(this IServiceCollection services, IConfiguration config)
         {

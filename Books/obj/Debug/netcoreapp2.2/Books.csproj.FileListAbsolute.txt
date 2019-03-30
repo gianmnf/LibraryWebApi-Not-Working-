@@ -6,3 +6,7 @@ D:\veloxSZ\prefeitura\LibraryWebApi\Books\obj\Debug\netcoreapp2.2\Books.Assembly
 D:\veloxSZ\prefeitura\LibraryWebApi\Books\obj\Debug\netcoreapp2.2\Books.AssemblyInfo.cs
 D:\veloxSZ\prefeitura\LibraryWebApi\Books\obj\Debug\netcoreapp2.2\Books.dll
 D:\veloxSZ\prefeitura\LibraryWebApi\Books\obj\Debug\netcoreapp2.2\Books.pdb
+D:\veloxSZ\prefeitura\LibraryWebApi\Books\bin\Debug\netcoreapp2.2\Entities.dll
+D:\veloxSZ\prefeitura\LibraryWebApi\Books\bin\Debug\netcoreapp2.2\Entities.pdb
+D:\veloxSZ\prefeitura\LibraryWebApi\Books\obj\Debug\netcoreapp2.2\Books.csprojAssemblyReference.cache
+D:\veloxSZ\prefeitura\LibraryWebApi\Books\obj\Debug\netcoreapp2.2\Books.csproj.CopyComplete

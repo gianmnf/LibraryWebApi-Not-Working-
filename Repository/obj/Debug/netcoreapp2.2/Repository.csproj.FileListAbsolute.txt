@@ -1,0 +1,14 @@
+D:\veloxSZ\prefeitura\LibraryWebApi\Repository\bin\Debug\netcoreapp2.2\Repository.deps.json
+D:\veloxSZ\prefeitura\LibraryWebApi\Repository\bin\Debug\netcoreapp2.2\Repository.dll
+D:\veloxSZ\prefeitura\LibraryWebApi\Repository\bin\Debug\netcoreapp2.2\Repository.pdb
+D:\veloxSZ\prefeitura\LibraryWebApi\Repository\bin\Debug\netcoreapp2.2\Books.dll
+D:\veloxSZ\prefeitura\LibraryWebApi\Repository\bin\Debug\netcoreapp2.2\Entities.dll
+D:\veloxSZ\prefeitura\LibraryWebApi\Repository\bin\Debug\netcoreapp2.2\Books.pdb
+D:\veloxSZ\prefeitura\LibraryWebApi\Repository\bin\Debug\netcoreapp2.2\Entities.pdb
+D:\veloxSZ\prefeitura\LibraryWebApi\Repository\obj\Debug\netcoreapp2.2\Repository.csprojAssemblyReference.cache
+D:\veloxSZ\prefeitura\LibraryWebApi\Repository\obj\Debug\netcoreapp2.2\Repository.csproj.CoreCompileInputs.cache
+D:\veloxSZ\prefeitura\LibraryWebApi\Repository\obj\Debug\netcoreapp2.2\Repository.AssemblyInfoInputs.cache
+D:\veloxSZ\prefeitura\LibraryWebApi\Repository\obj\Debug\netcoreapp2.2\Repository.AssemblyInfo.cs
+D:\veloxSZ\prefeitura\LibraryWebApi\Repository\obj\Debug\netcoreapp2.2\Repository.csproj.CopyComplete
+D:\veloxSZ\prefeitura\LibraryWebApi\Repository\obj\Debug\netcoreapp2.2\Repository.dll
+D:\veloxSZ\prefeitura\LibraryWebApi\Repository\obj\Debug\netcoreapp2.2\Repository.pdb
