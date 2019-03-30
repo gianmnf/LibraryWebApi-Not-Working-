@@ -15,7 +15,7 @@ namespace LibraryManagerServer.Controllers
         private ILoggerManager _logger;
         private IRepositoryWrapper _repository;
 
-        public LivrosController(ILoggerManager logger. IRepositoryWrapper repository)
+        public LivrosController(ILoggerManager logger, IRepositoryWrapper repository)
         {
             _logger = logger;
             _repository = repository;
