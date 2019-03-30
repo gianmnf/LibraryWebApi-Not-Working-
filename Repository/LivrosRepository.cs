@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Books;
 using Entities;
@@ -12,6 +13,12 @@ namespace Repository
         public LivrosRepository(RepositoryContext repositoryContext)
             :base(repositoryContext)
         {       
+        }
+
+        public IEnumerable<Livros> GetAllLivros()
+        {
+            return FindAll()
+                .OrderBy(li => li.Nome);
         }
     }
 }
