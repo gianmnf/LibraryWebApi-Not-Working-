@@ -9,7 +9,10 @@ namespace Books
     public interface ILivrosRepository : IRepositoryBase<Livros>
     {
         IEnumerable<Livros> GetAllLivros();
-        Livros GetLivrosById(int livroId);
-        LivrosExtended GetLivrosWithDetails(int livroId);
+        Livros GetLivrosById(Guid livroId);
+        LivrosExtended GetLivrosWithDetails(Guid livroId);
+        void CreateLivros(Livros livros);
+        void UpdateLivros(Livros dbLivros, Livros livros);
+        void DeleteLivros(Livros livros);
     }
 }

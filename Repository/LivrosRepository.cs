@@ -5,6 +5,7 @@ using System.Text;
 using Books;
 using Entities;
 using Entities.ExtendedModels;
+using Entities.Extensions;
 using Entities.Models;
 
 namespace Repository
@@ -22,21 +23,41 @@ namespace Repository
                 .OrderBy(li => li.Nome);
         }
 
-        public Livros GetLivrosById(int livrosId)
+        public Livros GetLivrosById(Guid livrosId)
         {
             return FindByCondition(livros => livros.Id.Equals(livrosId))
                 .DefaultIfEmpty(new Livros())
                 .FirstOrDefault();
         }
 
-        public LivrosExtended GetLivrosWithDetails(int livroId)
+        public LivrosExtended GetLivrosWithDetails(Guid livroId)
         {
             return new LivrosExtended(GetLivrosById(livroId))
             {
                 Livros = RepositoryContext.Livros
-                        .Where(li => li.Id == livroId)
+                        .Where(li => li.LivroId == livroId)
             };
 
+        }
+
+        public void CreateLivros(Livros livros)
+        {
+            livros.Id = Guid.NewGuid();
+            Create(livros);
+            Save();
+        }
+
+        public void UpdateLivros(Livros dbLivros, Livros livros)
+        {
+            dbLivros.Map(livros);
+            Update(dbLivros);
+            Save();
+        }
+
+        public void DeleteLivros(Livros livros)
+        {
+            Delete(livros);
+            Save();
         }
     }
 }

@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using System.Text;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Entities;
 
 namespace Entities.Models
 {
     [Table("Livros")]
-    public class Livros
+    public class Livros : IEntity
     {
         [Key]
         [Column("livroId")]
-        public int Id { get; set; }
+        public Guid Id { get; set; }
 
         [Required(ErrorMessage = "Nome é obrigatório")]
         [StringLength(150, ErrorMessage = "O campo nome não pode passar de 150 caracteres")]
@@ -27,5 +28,8 @@ namespace Entities.Models
         [Required(ErrorMessage = "Autor é obrigatório")]
         [StringLength(100, ErrorMessage = "O campo autor não pode passar de 100 caracteres")]
         public string Autor { get; set; }
+
+        [Required(ErrorMessage = "Id do livro é obrgatório")]
+        public Guid LivroId { get; set; }
     }
 }
