@@ -4,9 +4,9 @@
   </p>
 </template>
 <script>
-import LivrosService from '@/api-services/livros.service'
+// import LivrosService from '@/api-services/livros.service'
 export default {
-  name: 'Home',
+  name: 'Home'
   /* Testando Conexão com backend
   created () {
     LivrosService.getAll().then((response) => {
