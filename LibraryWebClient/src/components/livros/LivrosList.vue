@@ -22,21 +22,13 @@
               </tr>
             </thead>
             <tbody>
-              <tr v-for="livros in livros" :key="livros.id">
-                <td>{{ livros.nome }}</td>
-                <td>{{ livros.preco }}</td>
-                <td>{{ livros.tipo }}</td>
-                <td>{{ livros.autor }}</td>
-                <td>
-                  <b-button variant="light">Detalhes</b-button>
-                </td>
-                <td>
-                  <b-button variant="success">Atualizar</b-button>
-                </td>
-                <td>
-                  <b-button variant="danger">Remover</b-button>
-                </td>
-              </tr>
+              <livros-list-row
+               v-for="livros in livros"
+               :key="livros.id"
+               :livros="livros"
+               @details="detailsLivros"
+               @update="updateLivros"
+               @delete="deleteLivros"/>
             </tbody>
           </table>
         </div>
@@ -46,8 +38,12 @@
 </template>
 <script>
 import LivrosService from '@/api-services/livros.service'
+import LivrosListRow from '@/components/livros/LivrosListRow'
 export default {
   name: 'LivrosList',
+  components: {
+    LivrosListRow
+  },
   data () {
     return {
       livros: []
@@ -57,6 +53,17 @@ export default {
     LivrosService.getAll().then((response) => {
       this.livros = response.data
     })
+  },
+  methods: {
+    detailsLivros (livroId) {
+      console.log('details', livroId)
+    },
+    updateLivros (livroId) {
+      console.log('update', livroId)
+    },
+    deleteLivros (livroId) {
+      console.log('delete', livroId)
+    }
   }
 }
 </script>

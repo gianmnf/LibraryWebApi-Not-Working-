@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import NotFound from '@/components/error-pages/NotFound'
-import LivrosList from '@/components/livros/LivrosList.component'
+import LivrosList from '@/components/livros/LivrosList'
 Vue.use(Router)
 
 export default new Router({
