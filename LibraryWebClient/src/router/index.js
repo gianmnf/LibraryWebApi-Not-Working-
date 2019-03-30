@@ -4,6 +4,7 @@ import Home from '@/components/Home'
 import NotFound from '@/components/error-pages/NotFound'
 import LivrosList from '@/components/livros/LivrosList'
 import LivrosDetails from '@/components/livros/LivrosDetails'
+import LivrosCreate from '@/components/livros/LivrosCreate'
 Vue.use(Router)
 
 export default new Router({
@@ -18,6 +19,11 @@ export default new Router({
       path: '/livros/list',
       name: 'LivrosList',
       component: LivrosList
+    },
+    {
+      path: '/livros/create',
+      name: 'LivrosCreate',
+      component: LivrosCreate
     },
     {
       path: '/livros/:id',
