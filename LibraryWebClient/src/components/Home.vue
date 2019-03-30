@@ -4,8 +4,17 @@
   </p>
 </template>
 <script>
+import LivrosService from '@/api-services/livros.service'
 export default {
-  name: 'Home'
+  name: 'Home',
+  /* Testando Conexão com backend
+  created () {
+    LivrosService.getAll().then((response) => {
+      console.log(response.data)
+    }).catch((error) => {
+      console.log(error.response.data)
+    })
+  } */
 }
 </script>
 <style scoped>

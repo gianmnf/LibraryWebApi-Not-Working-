@@ -14248,23 +14248,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gianmnf\\.nuget\\packages\\": {},
+    "C:\\Users\\gianv\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\veloxSZ\\prefeitura\\LibraryWebApi\\Books\\Books.csproj",
+      "projectUniqueName": "C:\\dev\\prefeitura\\LibraryWebApi\\Backend\\Books\\Books.csproj",
       "projectName": "Books",
-      "projectPath": "D:\\veloxSZ\\prefeitura\\LibraryWebApi\\Books\\Books.csproj",
-      "packagesPath": "C:\\Users\\gianmnf\\.nuget\\packages\\",
-      "outputPath": "D:\\veloxSZ\\prefeitura\\LibraryWebApi\\Books\\obj\\",
+      "projectPath": "C:\\dev\\prefeitura\\LibraryWebApi\\Backend\\Books\\Books.csproj",
+      "packagesPath": "C:\\Users\\gianv\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\prefeitura\\LibraryWebApi\\Backend\\Books\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\gianmnf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gianv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -14277,8 +14277,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\veloxSZ\\prefeitura\\LibraryWebApi\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\veloxSZ\\prefeitura\\LibraryWebApi\\Entities\\Entities.csproj"
+            "C:\\dev\\prefeitura\\LibraryWebApi\\Backend\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\dev\\prefeitura\\LibraryWebApi\\Backend\\Entities\\Entities.csproj"
             }
           }
         }

@@ -9,3 +9,14 @@ D:\veloxSZ\prefeitura\LibraryWebApi\Entities\obj\Debug\netcoreapp2.2\Entities.As
 D:\veloxSZ\prefeitura\LibraryWebApi\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfo.cs
 D:\veloxSZ\prefeitura\LibraryWebApi\Entities\obj\Debug\netcoreapp2.2\Entities.dll
 D:\veloxSZ\prefeitura\LibraryWebApi\Entities\obj\Debug\netcoreapp2.2\Entities.pdb
+C:\dev\prefeitura\LibraryWebApi\Backend\Entities\bin\Debug\netcoreapp2.2\Entities.deps.json
+C:\dev\prefeitura\LibraryWebApi\Backend\Entities\bin\Debug\netcoreapp2.2\Entities.runtimeconfig.json
+C:\dev\prefeitura\LibraryWebApi\Backend\Entities\bin\Debug\netcoreapp2.2\Entities.runtimeconfig.dev.json
+C:\dev\prefeitura\LibraryWebApi\Backend\Entities\bin\Debug\netcoreapp2.2\Entities.dll
+C:\dev\prefeitura\LibraryWebApi\Backend\Entities\bin\Debug\netcoreapp2.2\Entities.pdb
+C:\dev\prefeitura\LibraryWebApi\Backend\Entities\obj\Debug\netcoreapp2.2\Entities.csprojAssemblyReference.cache
+C:\dev\prefeitura\LibraryWebApi\Backend\Entities\obj\Debug\netcoreapp2.2\Entities.csproj.CoreCompileInputs.cache
+C:\dev\prefeitura\LibraryWebApi\Backend\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfoInputs.cache
+C:\dev\prefeitura\LibraryWebApi\Backend\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfo.cs
+C:\dev\prefeitura\LibraryWebApi\Backend\Entities\obj\Debug\netcoreapp2.2\Entities.dll
+C:\dev\prefeitura\LibraryWebApi\Backend\Entities\obj\Debug\netcoreapp2.2\Entities.pdb

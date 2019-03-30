@@ -14235,23 +14235,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gianmnf\\.nuget\\packages\\": {},
+    "C:\\Users\\gianv\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\veloxSZ\\prefeitura\\LibraryWebApi\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\dev\\prefeitura\\LibraryWebApi\\Backend\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "D:\\veloxSZ\\prefeitura\\LibraryWebApi\\Entities\\Entities.csproj",
-      "packagesPath": "C:\\Users\\gianmnf\\.nuget\\packages\\",
-      "outputPath": "D:\\veloxSZ\\prefeitura\\LibraryWebApi\\Entities\\obj\\",
+      "projectPath": "C:\\dev\\prefeitura\\LibraryWebApi\\Backend\\Entities\\Entities.csproj",
+      "packagesPath": "C:\\Users\\gianv\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\prefeitura\\LibraryWebApi\\Backend\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\gianmnf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gianv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

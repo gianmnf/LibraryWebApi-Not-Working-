@@ -12,3 +12,17 @@ D:\veloxSZ\prefeitura\LibraryWebApi\Repository\obj\Debug\netcoreapp2.2\Repositor
 D:\veloxSZ\prefeitura\LibraryWebApi\Repository\obj\Debug\netcoreapp2.2\Repository.csproj.CopyComplete
 D:\veloxSZ\prefeitura\LibraryWebApi\Repository\obj\Debug\netcoreapp2.2\Repository.dll
 D:\veloxSZ\prefeitura\LibraryWebApi\Repository\obj\Debug\netcoreapp2.2\Repository.pdb
+C:\dev\prefeitura\LibraryWebApi\Backend\Repository\bin\Debug\netcoreapp2.2\Repository.deps.json
+C:\dev\prefeitura\LibraryWebApi\Backend\Repository\bin\Debug\netcoreapp2.2\Repository.dll
+C:\dev\prefeitura\LibraryWebApi\Backend\Repository\bin\Debug\netcoreapp2.2\Repository.pdb
+C:\dev\prefeitura\LibraryWebApi\Backend\Repository\bin\Debug\netcoreapp2.2\Books.dll
+C:\dev\prefeitura\LibraryWebApi\Backend\Repository\bin\Debug\netcoreapp2.2\Entities.dll
+C:\dev\prefeitura\LibraryWebApi\Backend\Repository\bin\Debug\netcoreapp2.2\Books.pdb
+C:\dev\prefeitura\LibraryWebApi\Backend\Repository\bin\Debug\netcoreapp2.2\Entities.pdb
+C:\dev\prefeitura\LibraryWebApi\Backend\Repository\obj\Debug\netcoreapp2.2\Repository.csprojAssemblyReference.cache
+C:\dev\prefeitura\LibraryWebApi\Backend\Repository\obj\Debug\netcoreapp2.2\Repository.csproj.CoreCompileInputs.cache
+C:\dev\prefeitura\LibraryWebApi\Backend\Repository\obj\Debug\netcoreapp2.2\Repository.AssemblyInfoInputs.cache
+C:\dev\prefeitura\LibraryWebApi\Backend\Repository\obj\Debug\netcoreapp2.2\Repository.AssemblyInfo.cs
+C:\dev\prefeitura\LibraryWebApi\Backend\Repository\obj\Debug\netcoreapp2.2\Repository.csproj.CopyComplete
+C:\dev\prefeitura\LibraryWebApi\Backend\Repository\obj\Debug\netcoreapp2.2\Repository.dll
+C:\dev\prefeitura\LibraryWebApi\Backend\Repository\obj\Debug\netcoreapp2.2\Repository.pdb
