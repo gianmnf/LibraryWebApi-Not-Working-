@@ -1,0 +1,1 @@
+INSERT INTO livros (livroId,nome,preco,tipo,autor) VALUES ('24fd81f8-d58a-4bcc-9f35-dc6cd5641906','Harry Potter e a Pedra Filosofal',29.90,'Aventura','J.K Rowling')
