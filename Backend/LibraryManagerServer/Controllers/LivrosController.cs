@@ -90,6 +90,7 @@ namespace LibraryManagerServer.Controllers
         [HttpPost]
         public IActionResult CreateLivros([FromBody]Livros livros)
         {
+            _repository.Livros.CreateLivros(livros);
             try
             {
                 if (livros.IsObjectNull())
@@ -101,9 +102,7 @@ namespace LibraryManagerServer.Controllers
                 {
                     _logger.LogInfo("Objeto inválido enviado pelo cliente.");
                     return BadRequest("Objeto modelo invalido.");
-                }
-
-                _repository.Livros.CreateLivros(livros);
+                }                
                 return CreatedAtRoute("LivrosById", new { id = livros.Id }, livros);
             }
             catch (Exception ex)
@@ -138,7 +137,7 @@ namespace LibraryManagerServer.Controllers
 
                 _repository.Livros.UpdateLivros(dbLivros, livros);
 
-                return NoContent();
+                return OK();
             }
             catch (Exception ex)
             {
