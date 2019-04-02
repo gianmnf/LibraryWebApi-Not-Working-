@@ -12,6 +12,7 @@ namespace Entities.Models
     {
         [Key]
         [Column("livroId")]
+        [JsonIgnore]
         public Guid Id { get; set; }
 
         [Required(ErrorMessage = "Nome é obrigatório")]
